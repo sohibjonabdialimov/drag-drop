@@ -1,0 +1,26 @@
+.main{
+  width: calc(100% - 200px);
+  position: relative;
+  left: 200px;
+  bottom: 0;
+  top: 44px;
+  min-height: calc(200vh - 44px);
+  background-color: #f0f0f0;
+}
+.board{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+}
+.item{
+  width: 100%;
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: grab;
+  background-color: #fcfcfc;
+  margin: 5px 0;
+}
