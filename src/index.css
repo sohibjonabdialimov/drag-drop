@@ -10,4 +10,8 @@ body{
   background-color: #f0f0f0;
   font-family: 'Roboto', sans-serif;
   color: #414644;
+  overflow: hidden;
+}
+img{
+  object-fit: cover;
 }
